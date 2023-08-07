@@ -15,7 +15,7 @@ Preset Admin/Student Logins:
   password: admn5111111
   |
   |
-  Along with the preset Admin login, we have 2 preset student logins, their usernames are their last and first names, and their password is their six-digit number given to them when they become a high schooler. In order to add more students, you must go to the "studentNames.txt" file and add the username of the student, which will be their last name and their first name conjoined in lowercase. Next, you must create a new .txt file titled with the username you just entered in the "studentNames.txt" file. The first line of this new file should be "false," the second line should be the student's username you just entered in the "studentNames.txt" file, the third line should be the student's school-designated six-digit code, the fourth line should be the student's grade (9-12), and the fifth line should be set to 0 at initial creation as it represents the student's current attendance at school events. The preset logins are as listed below
+  Along with the preset Admin login, we have 16 preset student logins (to show how the program would run as the program will error out if there aren't at least 4 students in each grade level), their usernames are their last and first names, and their password is their six-digit number given to them when they become a high schooler. In order to add more students, you must go to the "studentNames.txt" file and add the username of the student, which will be their last name and their first name conjoined in lowercase. Next, you must create a new .txt file titled with the username you just entered in the "studentNames.txt" file. The first line of this new file should be "false," the second line should be the student's username you just entered in the "studentNames.txt" file, the third line should be the student's school-designated six-digit code, the fourth line should be the student's grade (9-12), and the fifth line should be set to 0 at initial creation as it represents the student's current attendance at school events. Two of tje preset logins are as listed below.
   |
   |
   Student 1:
@@ -40,7 +40,7 @@ Once the admin has logged in, they have the option to start a school event of th
 
 After the admin selects one of these events, the program will begin asking for student logins. This is because before a student can enter the event,
 they must login with the tracker so that they can be rewarded for their attendance. At the end of each quarter, the students with the 1st, 2nd, and 3rd highest
-attendance scores in each grade will receieve a reward. They are listed below
+attendance scores in each grade will receieve a reward. They are listed below. These winners can be found when the admin hits the _end quarter_ button which will display the top 4 attendances in each grade and then reset everyone's attendance to 0 for the next quarter.
 |
 |
 1st Place
